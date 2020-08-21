@@ -1,0 +1,94 @@
+html {
+
+}
+
+body {
+  font-family: 'Baloo Tamma 2', cursive;
+  max-height: 100%;
+  width: auto;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.nav {
+  background-color: maroon;
+  text-align: center;
+  
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.testimonial {
+  width: 100%;
+  padding: 20px;
+  background-color: maroon;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.menu {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 5%;
+}
+
+.menu-item {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+.menu-photo {
+  width: 100%;
+}
+
+.our-team {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 5%;
+  background-color: maroon;
+}
+
+.team-container {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+.team-photo {
+  width: 100%;
+  
+}
+
+figcaption {
+  text-align: center;
+}
+
+.team-container figcaption {
+  color: white;
+}
+
+.contact {
+  text-align: center;
+}
